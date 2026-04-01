@@ -1,0 +1,13 @@
+	Acest proiect are ca obiectiv dezvoltarea unui model de machine learning capabil sa prezica vanzarile jocurilor video in diferite regiuni geografice (Europa, America de Nord, Japonia, alte regiuni). In acelasi timp, se urmareste identificarea regiunii in care un joc are cel mai mare potential de succes comercial, pe baza caracteriticilor sale.
+
+	Pentru realizarea acestui obiectiv am folosit doua dataseturi:
+
+	Primul dataset il folosesc pentru informatiile descriptive despre jocrui, precum numele jocului, platforma pe care a fost lansat, anul aparitiei, genul, publisherul, dezvoltatorul si scorul acordat de critici. Aceste variabile le folosesc dreot date de intrare in model, deoarece descriu proprietatile jocului care pot influenta performanta sa pe piata. 
+	(name, platform, year, genre, publisher, developer, critic_score)
+	
+	Al doilea dataset il folosesc pentru informatii despre vanzarile efective ale jocurilor in diferite regiuni, incluzând vanzarile din America de Nord, Europa, Japonia si alte regiuni. Aceste valori reprezinta variabilele tinta pe care modelul incearca sa le prezica. 
+	(NA_sales, EU_sales, JP_sales, other_sales)
+
+	Pentru a obtine un se de date complet, cele doua dataseturi vor fi combinate pe baza unor parametrii comuni, adica numele jocului, platforma si anul lansarii.
+
+	
